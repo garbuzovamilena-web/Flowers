@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DOM_JS. Считываем информацию из DOM</title>
+
+    <style>
+        .passport {
+            background-image: url(image/pasport_shablon.png);
+            background-position: left top;
+            background-repeat: no-repeat;
+            width: 700px;
+            height: 600px;
+            position: relative;
+            top: -300px;
+
+        }
+        .passport-text {
+            position: relative;
+            top: 340px
+        }
+
+        .surname {
+            margin-top: 338px;
+            margin-left: 179px;
+        }
+
+        .name {
+            margin-top: 28px;
+            margin-left: 179px;
+        }
+
+        .middlename {
+            margin-top: 4px;
+            margin-left: 179px;
+        }
+
+        .date {
+            margin-left: 160px;
+            margin-top: 4px;
+        }
+
+        .img {
+            margin-left: 27px;
+            margin-top: -79px;
+        }
+
+        .passgiven {
+            margin-left: 84px;
+            margin-top: -452px;
+        }
+
+        .passgivendate {
+            margin-left: 84px;
+            margin-top: 49px;
+        }
+
+        .division {
+            margin-left: 280px;
+            margin-top: -18px;
+        }
+
+        .sity {
+            margin-left: 180px;
+            margin-top: 300px;
+        }
+
+        .country {
+            margin-top: 3px;
+            margin-left: 237px;
+        }
+
+    </style>
+</head>
+
+<body bgcolor="#fff8f2" text="#4a3b35" link="#c2562a" vlink="#f19cbb">
+
+    <table align="center">
+        <tr>
+            <td>
+                <a href="index.html"><img src="image/logo.jpg" width="60" height="60" alt="На главную"></a>
+            </td>
+            <td>
+                <h1>Цветочная лавка «Георгин»</h1>
+            </td>
+        </tr>
+    </table>
+
+    <table width="100%" bgcolor="#f6d5c8" cellpadding="6" cellspacing="0">
+        <tr align="center">
+            <td><a href="index.html">Главная</a></td>
+            <td><a href="info.html">О георгинах</a></td>
+            <td><a href="info.html#care">Уход</a></td>
+            <td><a href="gallery.html">Букеты</a></td>
+            <td><a href="table.html">Прайс</a></td>
+            <td><a href="form.html">Заказ</a></td>
+            <td bgcolor="#e8743b"><b>DOM_JS</b></td>
+            <td><a href="passport.html">Паспорт</a></td>
+            <td><a href="task.html">Задача</a></td>
+            <td><a href="https://www.hse.ru/" target="_blank">ВШЭ</a></td>
+            <td><a href="https://ru.wikipedia.org/wiki/Георгин" target="_blank">Википедия</a></td>
+        </tr>
+    </table>
+
+    <h2 align="center"> DOM_JS. Считываем информацию из DOM</h2>
+
+    <div class="passport">
+        <div class="passport-text">
+
+        <div class="surname">Гарбузова</div>
+        <div class="name">Милена</div>
+        <div class="middlename">Руслановна</div>
+        <div class="date">ЖЕН &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 03.12.2006</div>
+        <div class="img"><img src="image/photo.jpg" height="145" width="110" alt="Фото"></div>
+        <div class="passgiven">ГУ МВД РОССИИ ПО Г. САНКТ-ПЕТЕРБУРГУ</div>
+        <div class="passgivendate">17.02.2021</div>
+        <div class="division">777-777</div>
+        <div class="sity">гор. САНКТ-ПЕТЕРБУРГ</div>
+        <div class="country">РОССИЯ</div>
+        </div>
+    </div>
+    <img src="image/dom.png" alt="Скрин экрана" width="600"/>
+    
+</body>
+</html>

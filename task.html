@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Решение алгоритмической задачи</title>
+</head>
+
+<body bgcolor="#fff8f2" text="#4a3b35" link="#c2562a" vlink="#f19cbb">
+    <table align="center">
+        <tr>
+            <td><a href="index.html"><img src="image/logo.jpg" width="60" height="60" alt="На главную"></a></td>
+            <td><h1>Цветочная лавка «Георгин»</h1></td>
+        </tr>
+    </table>
+
+    <table width="100%" bgcolor="#f6d5c8" cellpadding="6" cellspacing="0">
+        <tr align="center">
+            <td><a href="index.html">Главная</a></td>
+            <td><a href="info.html">О георгинах</a></td>
+            <td><a href="info.html#care">Уход</a></td>
+            <td><a href="gallery.html">Букеты</a></td>
+            <td><a href="table.html">Прайс</a></td>
+            <td><a href="form.html">Заказ</a></td>
+            <td><a href="dom.html">DOM_JS</a></td>
+            <td><a href="passport.html">Паспорт</a></td>
+            <td bgcolor="#e8743b"><b>Задача</b></td>
+            <td><a href="https://www.hse.ru/" target="_blank">ВШЭ</a></td>
+            <td><a href="https://ru.wikipedia.org/wiki/Георгин" target="_blank">Википедия</a></td>
+        </tr>
+    </table>
+
+    <h2 align="center">Решение алгоритмической задачи</h2>
+
+    <p><b>Задача 1005.</b> Дано: номер места в плацкартном вагоне. Определить, какое это место: верхнее или нижнее,
+        в купе или боковое.</p>
+    <p>Как устроен плацкартный вагон:</p>
+    <ul>
+        <li>всего 54 места;</li>
+        <li>места 1–36 — в купе (9 купе по 4 места), места 37–54 — боковые;</li>
+        <li>нечётные номера — нижние места, чётные — верхние.</li>
+    </ul>
+    <p>Ответ на задачу:</p>
+    <ul>
+        <li>номер места: <input id="seat" name="seat" type="number" min="1" max="54" value="15"></li>
+        <li>результат решения задачи: <input id="result" name="result" size="50" value="не определен" readonly></li>
+        <li>действие: <input id="verify" type="button" value="Проверить"></li>
+        </ul>
+        <script src="js/task.js"></script>
+</body>
+
+</html>

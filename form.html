@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Заказ букета</title>
+</head>
+
+<body bgcolor="#fff8f2" text="#4a3b35" link="#c2562a" vlink="#f19cbb">
+    <table align="center">
+        <tr>
+            <td><a href="index.html"><img src="image/logo.jpg" width="60" height="60" alt="На главную"></a></td>
+            <td><h1>Цветочная лавка «Георгин»</h1></td>
+        </tr>
+    </table>
+
+    <table width="100%" bgcolor="#f6d5c8" cellpadding="6" cellspacing="0">
+        <tr align="center">
+            <td><a href="index.html">Главная</a></td>
+            <td><a href="info.html">О георгинах</a></td>
+            <td><a href="info.html#care">Уход</a></td>
+            <td><a href="gallery.html">Букеты</a></td>
+            <td><a href="table.html">Прайс</a></td>
+            <td bgcolor="#e8743b"><b>Заказ</b></td>
+            <td><a href="dom.html">DOM_JS</a></td>
+            <td><a href="passport.html">Паспорт</a></td>
+            <td><a href="task.html">Задача</a></td>
+            <td><a href="https://www.hse.ru/" target="_blank">ВШЭ</a></td>
+            <td><a href="https://ru.wikipedia.org/wiki/Георгин" target="_blank">Википедия</a></td>
+        </tr>
+    </table>
+
+
+    <h2>Контактные данные</h2>
+    <form action="https://www.bing.com/search?" id="Contacts" name="Contacts" target="_blank">
+        <input type="hidden" name="q" value="contacts">
+        <p>Фамилия: <input type="text" name="last_name" value="Гарбузова"></p>
+        <p>Имя: <input type="text" name="first_name" value="Милена"></p>
+        <p>Группа: <input type="text" name="group" placeholder="Номер группы"></p>
+        <p>Мобильный телефон: <input type="tel" name="phone" placeholder="+7 900 000-00-00"></p>
+        <p>Электронная почта: <input type="email" name="email" placeholder="name@mail.ru"></p>
+        <p>Дата отправки: <input type="date" name="send_date" value="2026-10-21"></p>
+        <p>
+            <input type="reset" value="Очистить">
+            <input type="submit" value="Отправить">
+        </p>
+    </form>
+
+    <h2>Заказ букета</h2>
+    <form action="https://www.bing.com/search?" id="Order" name="Order" target="_blank">
+        <input type="hidden" name="q" value="order">
+        <input type="hidden" name="shop" value="georgin">
+        <p>Имя получателя: <input type="text" name="recipient" value="Анна"></p>
+        <p>Количество цветов: <input type="number" name="flowers_count" min="1" max="101" value="25"></p>
+        <p>Букет:
+            <input type="radio" name="bouquet" value="basket">«Закат в корзине»
+            <input type="radio" name="bouquet" value="peach">«Персик»
+            <input type="radio" name="bouquet" value="autumn" checked>«Осень»
+            <input type="radio" name="bouquet" value="garden">«Сад»
+        </p>
+        <p>Дополнительно:
+            <input type="checkbox" name="extra" value="card" checked>открытка
+            <input type="checkbox" name="extra" value="ribbon">лента
+            <input type="checkbox" name="extra" value="vase">ваза
+        </p>
+        <p>Дата доставки: <input type="date" name="delivery_date" value="2026-10-25"></p>
+        <p>Пожелания:<br>
+            <textarea name="wishes" cols="50" rows="3">Позвонить за час до доставки</textarea>
+        </p>
+        <p>Пароль от личного кабинета: <input type="password" name="password" value="12345"></p>
+        <p>
+            <input type="reset" value="Очистить">
+            <input type="submit" value="Заказать">
+        </p>
+    </form>
+</body>
+
+</html>
